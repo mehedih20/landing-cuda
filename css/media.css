@@ -1,0 +1,145 @@
+@media (max-width: 765px) {
+  .header-text h1 {
+    font-size: 3rem;
+    text-align: center;
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+  .services-title h1 {
+    font-size: 3rem;
+    text-align: center;
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+  .team-title h1 {
+    font-size: 3rem;
+    text-align: center;
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+  .skill-title h1 {
+    font-size: 3rem;
+    text-align: center;
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+  .portfolio-title h1 {
+    font-size: 3rem;
+    text-align: center;
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+  .feedback-title h1 {
+    font-size: 3rem;
+    text-align: center;
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+  .message-title h1 {
+    font-size: 4rem;
+    text-align: center;
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+  .btn {
+    padding: 1.5rem 5rem;
+    text-align: center;
+  }
+}
+
+/* ------------------------------------------------ */
+
+@media (max-width: 650px) {
+  .navigation {
+    padding: 6rem 2rem 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .navbrand {
+    margin-bottom: 3rem;
+  }
+
+  .nav-list {
+    align-items: flex-end;
+  }
+
+  .nav-item:not(:last-child) {
+    margin-right: 0;
+  }
+  .nav-link {
+    font-size: 1.6rem;
+    font-weight: 600;
+  }
+
+  .header-text {
+    padding: 5rem 0 7rem;
+  }
+
+  .portfolio-content {
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+  }
+}
+
+/* ------------------------------------------------ */
+
+@media (max-width: 520px) {
+  .message-content {
+    grid-template-columns: 1fr;
+    grid-gap: 2rem;
+  }
+}
+
+/* ------------------------------------------------ */
+
+@media (max-width: 470px) {
+  .navigation {
+    padding: 4rem 1.5rem;
+  }
+
+  .portfolio-content {
+    grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+  }
+
+  .portfolio-btn > button {
+    border: none;
+    padding: 1rem 1.5rem;
+    font-size: 1.4rem;
+  }
+
+  .portfolio-btn > button:not(:last-child) {
+    margin-right: 1.5rem;
+  }
+
+  .feedback-content {
+    grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+    margin-top: 15rem;
+  }
+
+  .feedback-box {
+    flex-direction: column;
+  }
+
+  .feedback-box img {
+    height: 10rem;
+    width: 10rem;
+    margin-right: 0;
+    margin-bottom: 3rem;
+  }
+  .feedback-box_text p {
+    font-size: 1.6rem;
+  }
+
+  .feedback-box_text h3 {
+    font-size: 2rem;
+  }
+
+  .feedback-box_text span {
+    font-size: 1.4rem;
+  }
+
+  .project-btn {
+    padding: 0 2rem;
+  }
+}
